@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 100%;
+}
+
+header h1{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    background: #f8ffbc;
+    width: 20%;
+    display: inline-block;
+
+    list-style: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+div#imageBar{
+    background: url("../res/img/foto6-1.png");
+}
+
+section{
+    padding: 6vw 3vw;
+    text-align: justify;
+
+    font-size: 1.5em;
+}
+
+section h2{
+    margin: 0;
+}
