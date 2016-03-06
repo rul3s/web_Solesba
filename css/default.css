@@ -22,13 +22,17 @@ nav ul{
 }
 
 nav ul li{
-    background: #f8ffbc;
+    background: #fFF;
     width: 20%;
     display: inline-block;
 
     list-style: none;
     font-size: 1.5em;
     cursor: pointer;
+}
+
+NAV UL LI:HOVER{
+    background: #ffe9cf;
 }
 
 div#imageBar{

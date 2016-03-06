@@ -6,7 +6,7 @@ html{
     width: 100%;
     min-height: 800px;
 
-    background: #fff;
+    background: #ffe9cf;
 }
 
 body{
@@ -14,7 +14,7 @@ body{
     width: 60%; min-width: 800px;
     min-height: 100vh;
 
-    background: #c6beab;
+    background: #ffe9cf;
 
     text-align: center;
 }
