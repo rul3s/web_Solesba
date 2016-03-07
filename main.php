@@ -18,8 +18,3 @@
 </p>
 
 <h3 class="center">Empresa pionera en la fabricación de escaleras</h3>
-
-<figure id="iso" class="right">
-    <img src="res/img/applus_iso9001.jpg" alt="Certificado ISO">
-    <figcaption>Certificacion ISO9001:2000 con Applus</figcaption>
-</figure>

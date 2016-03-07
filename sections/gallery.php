@@ -1,1 +1,0 @@
-<h2>Galeria d'Imatges</h2>

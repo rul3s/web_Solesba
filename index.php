@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/standard.css">
+    <link rel="stylesheet" href="css/gallery.prefixed.css">
     <link href='https://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
@@ -16,9 +17,9 @@
         <h1>Escaleras & Barandillas</h1>
     </header>
 
-    <div id="slideShow">
-        <img src="res/img/barandillas/bar%20(1).JPG" alt="slideshow">
-    </div>
+    <?php
+    include 'slideshow.php';
+    ?>
 
     <nav>
         <ul>
@@ -36,9 +37,9 @@
             $section = $_GET['section'];
         }else $section = "";
 
-        if($section == "gallery"){ include 'sections/gallery.php';
-        }else if ($section == "contact") { include 'sections/contact.php';
-        }else include 'sections/main.php';
+        if($section == "gallery"){ include 'gallery.php';
+        }else if ($section == "contact") { include 'contact.php';
+        }else include 'main.php';
     ?>
 
     </section>

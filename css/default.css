@@ -251,4 +251,27 @@ form textarea{
     form hr{
         clear: both;
     }
+
+    div#slideShow figure, div#slideShow figure img{
+        width: 100%;
+    }
+
+    div#gallery{
+        text-align: center;
+    }
+
+    figure.galleryFig{
+        display: inline-block;
+        height: 25vh;
+        transition: 500ms ease-in-out;
+    }
+
+    figure.galleryFig:hover{
+        transform: scale(2);
+    }
+
+    figure.galleryFig img{
+        display: inline-block;
+        height: 100%;
+    }
 }
