@@ -73,7 +73,7 @@ footer{
 
     body{
         background: none;
-        width: 50%;
+        width: 60%;
         min-width: 600px;
 
         margin: 0 auto;
@@ -171,7 +171,7 @@ a{
 
 @media (min-width: 1000px){
     header figure{
-        width: 39%;
+        width: 35%;
         display: inline-block;
     }
 
@@ -181,7 +181,7 @@ a{
 
     header h1{
         padding-top: 3vh;
-        width: 60%;
+        width: 64%;
         float: right;
     }
 
