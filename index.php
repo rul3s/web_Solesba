@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <figure><img src="res/img/logo.png" alt?="logoSolesba"></figure>
+        <figure><img src="res/img/logo.png" alt="logoSolesba"></figure>
         <h1>Escaleras & Barandillas</h1>
     </header>
 
