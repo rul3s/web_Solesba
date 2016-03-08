@@ -23,8 +23,10 @@
                 'Subject: Contacto via Web Solesba.com' . "\r\n" .
                 'X-Mailer: PHP/' . phpversion();
 
-    $msg = "Asunto: $subject \r\nDes de: $from \r\nTelefono: $tel \r\nNombre: $name \r\nMensaje: \r\n$comments";
+    $msg = "Des de: $from \r\nTelefono: $tel \r\nNombre: $name \r\nMensaje: \r\n$comments";
 
     if (mail($to,$subject,$msg)){
         echo "Mail Sent";
     }else echo "Error!";
+
+    header("Location: index.php");

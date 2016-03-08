@@ -62,8 +62,28 @@ div#slideShow {
 }
 
 footer{
-    display: none;
+    text-align: center;
+    font-size: 0.6em;
+    background: #62574c;
+    color: white;
+    display: block;
     padding: 1vh;
+}
+
+footer p{
+    width: 49%;
+}
+
+footer p:nth-child(1){
+    float:left;
+}
+
+footer p:nth-child(2){
+    float:right;
+}
+
+footer hr{
+    clear: both;
 }
 
 @media (min-width: 1000px){
@@ -101,9 +121,11 @@ footer{
         color: black;
     }
 
+    /*
     nav ul li:first-child{
         display: none;
     }
+    */
 
     nav ul li:hover{
         background: #ffe9cf;
@@ -164,7 +186,15 @@ section figure#iso img{
     width: 4vh;
 }
 
-a{
+figure{
+    margin: 0 auto;
+    text-align: center;
+}
+figure img{
+    width: 100%;
+}
+
+a.none{
     color: inherit;
     text-decoration: inherit;
 }
@@ -195,7 +225,51 @@ form textarea{
     font-size: 1.25em;
 }
 
+div#gallery{
+    text-align: center;
+}
 
+figure.galleryFig {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+figure.galleryFig img{
+    width: 100%;
+}
+
+section#image figure{
+    width: 100%;
+}
+
+section#image figure:hover{
+    transform: scale(1);
+}
+
+section#image figure img{
+    width: 100%;
+    height: auto;
+}
+
+section#image a{
+    color: #4d87e2;
+    text-decoration: underline;
+}
+
+figure.optionGallery{
+    width: 50%;
+}
+
+figure img{
+    width: 100%;
+}
+
+input#mailButton{
+    width: 50%;
+    background: #feffe5;
+    cursor: pointer;
+}
 @media (min-width: 1000px){
     header figure{
         width: 35%;
@@ -262,16 +336,29 @@ form textarea{
 
     figure.galleryFig{
         display: inline-block;
+        width: auto;
         height: 25vh;
         transition: 500ms ease-in-out;
     }
 
     figure.galleryFig:hover{
-        transform: scale(2);
+        transform: scale(1.25);
     }
 
     figure.galleryFig img{
         display: inline-block;
+        width: auto;
+        height: 100%;
+    }
+
+    figure.optionGallery{
+        display: inline-block;
+        width: 24%;
+        height: 15vh;
+    }
+
+    figure.optionGallery img{
+        width: 100%;
         height: 100%;
     }
 }

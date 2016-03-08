@@ -2,18 +2,19 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Escaleras y barandillas</title>
+    <meta name="author" description="Raül Valls">
+    <meta name="description" content="Solesba, fabricantes e instaladores de Escaleras y Barandillas desde 1980">
+    <meta name="keywords" content="Solesba, Escaleras, Barandillas, Fabricantes, Instaladores">
+    <title>SOLESBA - Escaleras y barandillas</title>
+    <link rel="icon" href="res/img/icon.png">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/standard.css">
     <link rel="stylesheet" href="css/gallery.prefixed.css">
-    <link href='https://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header>
-        <figure><img src="res/img/logo.png" alt="logoSolesba"></figure>
+        <figure><a href="index.php"><img src="res/img/logo.png" alt="logoSolesba"></a></figure>
         <h1>Escaleras & Barandillas</h1>
     </header>
 
@@ -23,10 +24,9 @@
 
     <nav>
         <ul>
-            <li>MENU</li>
-            <li><a href="index.php">NUESTRA EMPRESA</a></li>
-            <li><a href="index.php?section=gallery">GALERÍA</a></li>
-            <li><a href="index.php?section=contact">CONTACTO</a></li>
+            <li><a class="none" href="index.php">NUESTRA EMPRESA</a></li>
+            <li><a class="none" href="index.php?section=gallery">GALERÍA</a></li>
+            <li><a class="none" href="index.php?section=contact">CONTACTO</a></li>
         </ul>
     </nav>
 
@@ -45,7 +45,9 @@
     </section>
 
     <footer class="font3">
-        Solesba 1980 - 2016
+        <p class="left">Todos los derechos reservados &copy; &nbsp;&nbsp;&nbsp;Solesba 1980 - 2016 &reg; </p>
+        <p class="right">Web Design by <a class="none" href="http://www.rul3s.es">RVS Web Services</a></p>
+        <hr>
     </footer>
 </body>
 </html>

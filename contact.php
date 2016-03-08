@@ -8,7 +8,7 @@
     a traves de nuestra página Web:
 </p>
 
-<form id="mail" action="sections/sendMail.php" method="post" class="font1">
+<form id="mail" action="sendMail.php" method="post" class="font1">
     <div>
         <label>Nombre:</label><br>
         <input type="text" name="name" placeholder="Nombre"><br>
@@ -20,7 +20,8 @@
     <div>
     <label>Mensaje:</label><br>
         <textarea name="comments" placeholder="Mensaje"></textarea><br>
+        <input id="mailButton" type="submit" value="Enviar">
     </div>
     <hr>
-    <input type="submit" value="Enviar">
+
 </form>
