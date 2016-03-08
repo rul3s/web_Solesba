@@ -5,7 +5,6 @@
     <title>Escaleras y barandillas</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/standard.css">
     <link rel="stylesheet" href="css/gallery.prefixed.css">
     <link href='https://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet' type='text/css'>

@@ -9,7 +9,6 @@
     <link rel="icon" href="res/img/icon.png">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/standard.css">
     <link rel="stylesheet" href="css/gallery.prefixed.css">
 </head>
 <body>
