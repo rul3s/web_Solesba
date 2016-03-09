@@ -14,8 +14,7 @@
 </head>
 <body>
     <header>
-        <figure><a href="index.php"><img id="logo" src="res/img/logo.png" alt="logoSolesba"></a></figure>
-        <h1>Escaleras & Barandillas</h1>
+        <figure><a href="index.php"><img id="logo" src="res/img/logo_solesba_2.png" alt="logoSolesba"></a></figure>
     </header>
 
     <?php

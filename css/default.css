@@ -25,6 +25,7 @@ body{
 }
 
 header{
+    padding: 1vh;
     text-align: center;
     /*min-height: 10vh;*/
 }
@@ -94,10 +95,6 @@ figure img{
         width: 60%;
         min-width: 600px;
         margin: 0 auto;
-    }
-
-    img#logo{
-        content:url("../res/img/logoPc.png");
     }
 
     nav{
@@ -259,20 +256,16 @@ input#mailButton{
 }
 
 @media (min-width: 1000px){
-    header figure{
-        width: 35%;
-        display: inline-block;
+    header{
+        padding: 2vh 0;
     }
-
-    header figure img{
+    header figure{
         width: 100%;
     }
 
-    header h1{
-        font-size: 1.8em;
-        padding-top: 3vh;
-        width: 64%;
-        float: right;
+    header figure img{
+        margin: 0 auto;
+        width: 60%;
     }
 
     div#slideShow {
