@@ -96,6 +96,10 @@ figure img{
         margin: 0 auto;
     }
 
+    img#logo{
+        content:url("../res/img/logoPc.png");
+    }
+
     nav{
         padding: 0;
         background: white;
