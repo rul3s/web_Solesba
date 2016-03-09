@@ -1,7 +1,10 @@
+
 <h2><a class="none" href="index.php?section=gallery">Galeria de imágenes</a></h2>
 
 <div id="gallery">
+
     <?php
+
         if(!isset($_GET["type"])){
             include 'selectGallery.php';
         }else{

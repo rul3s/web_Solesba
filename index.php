@@ -5,6 +5,7 @@
     <meta name="author" description="Raül Valls">
     <meta name="description" content="Solesba, fabricantes e instaladores de Escaleras y Barandillas desde 1980">
     <meta name="keywords" content="Solesba, Escaleras, Barandillas, Fabricantes, Instaladores">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SOLESBA - Escaleras y barandillas</title>
     <link rel="icon" href="res/img/icon.png">
     <link rel="stylesheet" href="css/fonts.css">
@@ -31,7 +32,8 @@
 
     <section>
 
-    <?php
+        <?php
+
         if (isset($_GET['section'])){
             $section = $_GET['section'];
         }else $section = "";
@@ -39,13 +41,14 @@
         if($section == "gallery"){ include 'gallery.php';
         }else if ($section == "contact") { include 'contact.php';
         }else include 'main.php';
-    ?>
+
+        ?>
 
     </section>
 
-    <footer class="font3">
-        <p class="left">Todos los derechos reservados &copy; &nbsp;&nbsp;&nbsp;Solesba 1980 - 2016 &reg; </p>
-        <p class="right">Web Design by <a class="none" href="http://www.rul3s.es">RVS Web Services</a></p>
+    <footer>
+        <p>Todos los derechos reservados &copy; &nbsp;&nbsp;&nbsp;Solesba 1980 - 2016 &reg; </p>
+        <p>Web Design by <a class="none" href="http://www.rul3s.es">RVS Web Services</a></p>
         <hr>
     </footer>
 </body>
