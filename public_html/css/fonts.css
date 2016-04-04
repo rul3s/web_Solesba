@@ -12,17 +12,17 @@
 
 @font-face {
     font-family: Laila;
-    src: url("../res/font/Laila-Regular.ttf");
+    src: url("../font/Laila-Regular.ttf");
 }
 
 
 @font-face {
     font-family: Marcellus;
-    src: url("../res/font/Marcellus-Regular.ttf");
+    src: url("../font/Marcellus-Regular.ttf");
 }
 
 
 @font-face {
     font-family: "Oleo Script";
-    src: url("../res/font/OleoScript-Regular.ttf");
+    src: url("../font/OleoScript-Regular.ttf");
 }

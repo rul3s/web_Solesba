@@ -1,5 +1,5 @@
 
-<h2><a class="none" href="index.php?section=gallery">Galeria de imágenes</a></h2>
+<h2><a class="none" href="../../public_html/index.php?section=gallery">Galeria de imágenes</a></h2>
 
 <div id="gallery">
 
@@ -14,7 +14,7 @@
             unset($files[0]);unset($files[1]);
             foreach($files as $file) {
                 $ref = $dir . "/" .$file;
-                echo "<figure class=\"galleryFig\"><a href=\"image.php?ref=$ref\"><img src=\"$ref\" alt=\"img\"></a></figure>";
+                echo "></a></figure>";
             }
         }
     ?>

@@ -7,14 +7,14 @@
     <meta name="keywords" content="Solesba, Escaleras, Barandillas, Fabricantes, Instaladores">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SOLESBA - Escaleras y barandillas</title>
-    <link rel="icon" href="res/img/icon.png">
+    <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/gallery.prefixed.css">
 </head>
 <body>
     <header>
-        <figure><a href="index.php"><img id="logo" src="res/img/logo_solesba_2.png" alt="logoSolesba"></a></figure>
+        <figure><a href="index.php"><img id="logo" src="img/logo_solesba_2.png" alt="logoSolesba"></a></figure>
     </header>
 
     <?php

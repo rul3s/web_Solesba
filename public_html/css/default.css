@@ -14,7 +14,7 @@ header, nav, section, div#slideShow, footer{
 }
 
 html{
-    background: url("../res/img/woodPatLong.jpg")no-repeat top;
+    background: url("../img/woodPatLong.jpg")no-repeat top;
     background-size: cover;
     min-height: 100vh;
 }

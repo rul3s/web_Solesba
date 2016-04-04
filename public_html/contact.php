@@ -8,7 +8,7 @@
     a traves de nuestra página Web:
 </p>
 
-<form id="mail" action="sendMail.php" method="post" class="font1">
+<form id="mail" action="../resources/library/sendMail.php" method="post" class="font1">
     <div>
         <label>Nombre:</label><br>
         <input type="text" name="name" placeholder="Nombre"><br>
